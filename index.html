@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Haris Hameed Mian | Mechanical Design Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="menu-title">Menu</div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#biography">Biography</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#service">Professional Service</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </aside>
+
+    <!-- Main content -->
+    <main class="content">
+
+      <!-- Header block -->
+      <section class="header">
+        <div class="header-top">
+          <h1>Haris Hameed Mian</h1>
+          <div class="line"></div>
+        </div>
+
+        <div class="header-grid">
+          <div class="photo">
+            <!-- Put your photo in assets/img/profile.jpg -->
+            <img src="assets/img/profile.jpg" alt="Haris Hameed" />
+          </div>
+
+          <div class="contact-block">
+            <p class="role">Mechanical Engineer | Simulation-Driven Product Development</p>
+            <p>Greater Oslo Region</p>
+            <p>Email: <a href="mailto:harishameed_33@hotmail.com">harishameed_33@hotmail.com</a></p>
+
+            <div class="links">
+              <a href="https://www.linkedin.com/in/haris-h-m-7978788b/" target="_blank" rel="noopener">LinkedIn</a>
+              <span>|</span>
+              <a href="#" target="_blank" rel="noopener">GitHub</a>
+              <span>|</span>
+              <a href="#" target="_blank" rel="noopener">CV (PDF)</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <h2>About</h2>
+        <p>
+          I am a mechanical engineer working with CFD, numerical modeling, and engineering analysis to support
+          product development in offshore and industrial projects. I use simulation and calculations as practical
+          engineering tools to improve designs, reduce technical risk, and support reliable decision-making.
+        </p>
+      </section>
+
+      <!-- Biography -->
+      <section id="biography" class="section">
+        <h2>Biography</h2>
+        <ul>
+          <li><b>PhD (Mechanical Engineering)</b>, NMBU (REALTEK) — Applied machine learning for aerodynamics of floating offshore wind aerodynamics</li>
+          <li><b>Mechanical Design Engineer</b> — experience in industrial engineering projects</li>
+          <li><b>Core focus:</b> CFD workflows, validation, engineering calculations, design support</li>
+        </ul>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="card">
+          <h3>Floating Offshore Wind: Unsteady Wake Analysis</h3>
+          <p><b>What:</b> CFD-based analysis of wake dynamics under platform motion.</p>
+          <p><b>Outcome:</b> Design-relevant insights for wake recovery, energy transport, and performance trends.</p>
+          <p><b>Tools:</b> OpenFOAM / STAR-CCM+, Python post-processing, HPC</p>
+          <!-- Example image -->
+          <img class="proj-img" src="assets/img/project1.png" alt="Project plot" />
+        </div>
+
+        <div class="card">
+          <h3>Simulation-Driven Design Validation</h3>
+          <p><b>What:</b> Numerical modeling + engineering calculations to support design verification.</p>
+          <p><b>Outcome:</b> Clear recommendations, validated assumptions, and faster iterations.</p>
+          <p><b>Tools:</b> ANSYS / CAD / Python</p>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="two-col">
+          <ul>
+            <li>CFD (RANS / URANS / LES)</li>
+            <li>OpenFOAM, STAR-CCM+</li>
+            <li>Meshing, turbulence modeling</li>
+            <li>Model validation & verification</li>
+          </ul>
+          <ul>
+            <li>Python (automation, post-processing)</li>
+            <li>HPC workflows</li>
+            <li>Engineering calculations</li>
+            <li>Design support & reporting</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Professional Service -->
+      <section id="service" class="section">
+        <h2>Professional Service</h2>
+        <ul>
+          <li>Peer reviewer for engineering journals (selected)</li>
+          <li>Teaching / mentoring (ANSYS, FEM demonstrations)</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:harishameed_33@hotmail.com">harishameed_33@hotmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/haris-hm-7978788b" target="_blank" rel="noopener">Profile</a></p>
+      </section>
+
+      <footer class="footer">
+        © <span id="year"></span> Haris Hameed
+      </footer>
+
+    </main>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
